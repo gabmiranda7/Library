@@ -1,0 +1,1 @@
+Sistema de Biblioteca, que contém os menus de Autores, Editoras, Gêneros, Idiomas, Livros e Usuários, vinculado a um banco de dados do SQL Server, possibilitando a inclusão, alteração ou remoção de cada um deles.
