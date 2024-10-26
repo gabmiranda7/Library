@@ -1,0 +1,15 @@
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\bin\Debug\net8.0\Biblioteca.Data.deps.json
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\bin\Debug\net8.0\Biblioteca.Data.runtimeconfig.json
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\bin\Debug\net8.0\Biblioteca.Data.dll
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\bin\Debug\net8.0\Biblioteca.Data.pdb
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.csproj.AssemblyReference.cache
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.AssemblyInfoInputs.cache
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.AssemblyInfo.cs
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.sourcelink.json
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.dll
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\refint\Biblioteca.Data.dll
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.pdb
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\Biblioteca.Data.genruntimeconfig.cache
+C:\Projetos\Library\Biblioteca.Windows\Library\Library.Data\obj\Debug\net8.0\ref\Biblioteca.Data.dll
