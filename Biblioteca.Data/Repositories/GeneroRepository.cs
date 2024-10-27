@@ -12,7 +12,7 @@ namespace Biblioteca.Data.Repositories
     public class GeneroRepository : IGeneroRepository, IGeneroRespositoryAsync
     {
         private DBLivrariaContext DB;
-        public GeneroRepository(DBLivrariaContext context) 
+        public GeneroRepository(DBLivrariaContext context)
         {
             DB = context;
         }
@@ -52,7 +52,7 @@ namespace Biblioteca.Data.Repositories
             await DB.SaveChangesAsync();
         }
 
-        public Genero? SelecionaPelaChave(int id)
+        public Genero? SelecionarPelaChave(int id)
         {
             //Forma Nº1
             return DB.Generos.Find(id);
@@ -79,7 +79,7 @@ namespace Biblioteca.Data.Repositories
         public List<Genero> SelecionarTodos()
         {
             //Forma Nº1
-            return DB.Generos.OrderBy(p=>p.Nome).ToList();
+            return DB.Generos.OrderBy(p => p.Nome).ToList();
 
             //Forma Nº2
             //return (from p in DB.Generos orderby p.Nome select p).ToList();
@@ -88,10 +88,16 @@ namespace Biblioteca.Data.Repositories
         public async Task<List<Genero>> SelecionarTodosAsync()
         {
             //Forma Nº1
-            return await DB.Generos.OrderBy(p=>p.Nome).ToListAsync();
+            return await DB.Generos.OrderBy(p => p.Nome).ToListAsync();
 
             //Forma Nº2
             //return await (from p in DB.Generos orderby p.Nome select p).ToListAsync();
+        }
+
+        public void IncluirMultiplos(List<Genero> Lista)
+        {
+            DB.Generos.AddRange(Lista);
+            DB.SaveChanges();
         }
     }
 }

@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95D00329-9E52-4796-9A7F-5ECD15F1B573}|Biblioteca.Teste\\Biblioteca.Teste.csproj|c:\\users\\gabmi\\desktop\\clone\\library\\biblioteca.teste\\testegenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D00329-9E52-4796-9A7F-5ECD15F1B573}|Biblioteca.Teste\\Biblioteca.Teste.csproj|solutionrelative:biblioteca.teste\\testegenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|c:\\users\\gabmi\\desktop\\clone\\library\\biblioteca.data\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|solutionrelative:biblioteca.data\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|c:\\users\\gabmi\\desktop\\clone\\library\\biblioteca.data\\model\\dblivrariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|solutionrelative:biblioteca.data\\model\\dblivrariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|c:\\users\\gabmi\\desktop\\clone\\library\\biblioteca.data\\interfaces\\igenerorepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|solutionrelative:biblioteca.data\\interfaces\\igenerorepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|c:\\users\\gabmi\\desktop\\clone\\library\\biblioteca.data\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0F5871-506F-4900-87BD-C738A8480DE4}|Biblioteca.Data\\Biblioteca.Data.csproj|solutionrelative:biblioteca.data\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TesteGenero.cs",
+              "DocumentMoniker": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Teste\\TesteGenero.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Teste\\TesteGenero.cs",
+              "ToolTip": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Teste\\TesteGenero.cs",
+              "RelativeToolTip": "Biblioteca.Teste\\TesteGenero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:40:01.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeneroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Repositories\\GeneroRepository.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Data\\Repositories\\GeneroRepository.cs",
+              "ToolTip": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Repositories\\GeneroRepository.cs",
+              "RelativeToolTip": "Biblioteca.Data\\Repositories\\GeneroRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAewDYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:29:20.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGeneroRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Interfaces\\IGeneroRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Data\\Interfaces\\IGeneroRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Interfaces\\IGeneroRepositoryAsync.cs",
+              "RelativeToolTip": "Biblioteca.Data\\Interfaces\\IGeneroRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:28:28.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGeneroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Interfaces\\IGeneroRepository.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Data\\Interfaces\\IGeneroRepository.cs",
+              "ToolTip": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Interfaces\\IGeneroRepository.cs",
+              "RelativeToolTip": "Biblioteca.Data\\Interfaces\\IGeneroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:28:15.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBLivrariaContext.cs",
+              "DocumentMoniker": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Model\\DBLivrariaContext.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Data\\Model\\DBLivrariaContext.cs",
+              "ToolTip": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Model\\DBLivrariaContext.cs",
+              "RelativeToolTip": "Biblioteca.Data\\Model\\DBLivrariaContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIA0wBoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:26:39.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 301,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

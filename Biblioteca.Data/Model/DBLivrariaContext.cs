@@ -36,7 +36,7 @@ public partial class DBLivrariaContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        if(!optionsBuilder.IsConfigured)
+        if (!optionsBuilder.IsConfigured)
         {
             optionsBuilder.UseSqlServer("Server=GABRIEL\\sqlexpress;Database=Livraria;Trusted_Connection=True;TrustServerCertificate=True");
         }

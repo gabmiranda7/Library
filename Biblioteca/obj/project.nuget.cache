@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CpdMs8W+UE0=",
+  "dgSpecHash": "iYg81TvVvtw=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Library\\Biblioteca.Windows\\Library\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabmi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\gabmi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -22,6 +22,7 @@
     "C:\\Users\\gabmi\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.10\\microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
     "C:\\Users\\gabmi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.10\\microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "C:\\Users\\gabmi\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.10\\microsoft.entityframeworkcore.sqlserver.8.0.10.nupkg.sha512",
+    "C:\\Users\\gabmi\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.10\\microsoft.entityframeworkcore.tools.8.0.10.nupkg.sha512",
     "C:\\Users\\gabmi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\gabmi\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "C:\\Users\\gabmi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

@@ -12,7 +12,7 @@ namespace Biblioteca.Data.Interfaces
         void Incluir(Genero oGenero);
         void Alterar(Genero oGenero);
         void Excluir(Genero oGenero);
-        Genero? SelecionaPelaChave(int id);
+        Genero? SelecionarPelaChave(int id);
         List<Genero> SelecionarTodos();
     }
 }
