@@ -138,7 +138,7 @@ namespace Biblioteca.Teste
         // Resetando o campo Idnetity da tabela Gênero
         public void ResetIdentity()
         {
-            DB.Database.ExecuteSqlRaw("DBCC CHECKIDENT ('Genero', RESEED, -1);");
+            DB.Database.ExecuteSqlRaw("DBCC CHECKIDENT ('Genero', RESEED, 0);");
             Assert.Pass("Campo ID (Identity) resetado com suceso!");
         }
     }
