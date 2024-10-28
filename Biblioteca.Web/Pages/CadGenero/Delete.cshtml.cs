@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Data.Model;
+using Biblioteca.Data.Interfaces;
 
 namespace Biblioteca.Web.Pages.CadGenero
 {
     public class DeleteModel : PageModel
     {
-        private readonly Biblioteca.Data.Model.DBLivrariaContext _context;
+        private readonly IGeneroRespositoryAsync Repository;
 
-        public DeleteModel(Biblioteca.Data.Model.DBLivrariaContext context)
+        public DeleteModel(IGeneroRespositoryAsync generoRepositoryAsync)
         {
-            _context = context;
+            Repository = generoRepositoryAsync;
         }
 
         [BindProperty]
@@ -28,7 +29,7 @@ namespace Biblioteca.Web.Pages.CadGenero
                 return NotFound();
             }
 
-            var genero = await _context.Generos.FirstOrDefaultAsync(m => m.Id == id);
+            var genero = await Repository.SelecionaPelaChaveAsync(id.Value); //_context.Generos.FirstOrDefaultAsync(m => m.Id == id);
 
             if (genero == null)
             {
@@ -48,12 +49,13 @@ namespace Biblioteca.Web.Pages.CadGenero
                 return NotFound();
             }
 
-            var genero = await _context.Generos.FindAsync(id);
+            var genero = await Repository.SelecionaPelaChaveAsync(id.Value); //_context.Generos.FindAsync(id);
             if (genero != null)
             {
                 Genero = genero;
-                _context.Generos.Remove(Genero);
-                await _context.SaveChangesAsync();
+                await Repository.ExcluirAsync(genero);
+                //_context.Generos.Remove(Genero);
+                //await _context.SaveChangesAsync();
             }
 
             return RedirectToPage("./Index");

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj": {}
+    "C:\\Projetos\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj": {
+    "C:\\Projetos\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj",
+        "projectUniqueName": "C:\\Projetos\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj",
         "projectName": "Biblioteca.Data",
-        "projectPath": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj",
+        "projectPath": "C:\\Projetos\\Library\\Biblioteca.Data\\Biblioteca.Data.csproj",
         "packagesPath": "C:\\Users\\gabmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Data\\obj\\",
+        "outputPath": "C:\\Projetos\\Library\\Biblioteca.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

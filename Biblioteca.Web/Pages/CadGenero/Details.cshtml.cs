@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Data.Model;
+using Biblioteca.Data.Interfaces;
 
 namespace Biblioteca.Web.Pages.CadGenero
 {
     public class DetailsModel : PageModel
     {
-        private readonly Biblioteca.Data.Model.DBLivrariaContext _context;
+        private readonly IGeneroRespositoryAsync Repository;
 
-        public DetailsModel(Biblioteca.Data.Model.DBLivrariaContext context)
+        public DetailsModel(IGeneroRespositoryAsync generoRepositoryAsync)
         {
-            _context = context;
+            Repository = generoRepositoryAsync;
         }
 
         public Genero Genero { get; set; } = default!;
@@ -27,7 +28,7 @@ namespace Biblioteca.Web.Pages.CadGenero
                 return NotFound();
             }
 
-            var genero = await _context.Generos.FirstOrDefaultAsync(m => m.Id == id);
+            var genero = await Repository.SelecionaPelaChaveAsync(id.Value); //_context.Generos.FirstOrDefaultAsync(m => m.Id == id);
             if (genero == null)
             {
                 return NotFound();

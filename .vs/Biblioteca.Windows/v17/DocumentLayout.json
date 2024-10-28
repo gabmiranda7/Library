@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\",
+  "WorkspaceRootPath": "C:\\Projetos\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95D00329-9E52-4796-9A7F-5ECD15F1B573}|Biblioteca.Teste\\Biblioteca.Teste.csproj|c:\\users\\gabmi\\desktop\\clone\\library\\biblioteca.teste\\testegenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95D00329-9E52-4796-9A7F-5ECD15F1B573}|Biblioteca.Teste\\Biblioteca.Teste.csproj|solutionrelative:biblioteca.teste\\testegenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F24D601D-5FC3-45E4-9EFC-71845BB0B3A7}|Biblioteca.Web\\Biblioteca.Web.csproj|c:\\projetos\\library\\biblioteca.web\\pages\\cadgenero\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F24D601D-5FC3-45E4-9EFC-71845BB0B3A7}|Biblioteca.Web\\Biblioteca.Web.csproj|solutionrelative:biblioteca.web\\pages\\cadgenero\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24D601D-5FC3-45E4-9EFC-71845BB0B3A7}|Biblioteca.Web\\Biblioteca.Web.csproj|c:\\projetos\\library\\biblioteca.web\\pages\\cadgenero\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F24D601D-5FC3-45E4-9EFC-71845BB0B3A7}|Biblioteca.Web\\Biblioteca.Web.csproj|solutionrelative:biblioteca.web\\pages\\cadgenero\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TesteGenero.cs",
-              "DocumentMoniker": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Teste\\TesteGenero.cs",
-              "RelativeDocumentMoniker": "Biblioteca.Teste\\TesteGenero.cs",
-              "ToolTip": "C:\\Users\\gabmi\\Desktop\\Clone\\Library\\Biblioteca.Teste\\TesteGenero.cs",
-              "RelativeToolTip": "Biblioteca.Teste\\TesteGenero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\Library\\Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml",
+              "RelativeDocumentMoniker": "Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml",
+              "ToolTip": "C:\\Projetos\\Library\\Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml",
+              "RelativeToolTip": "Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T12:43:25.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Projetos\\Library\\Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml.cs",
+              "ToolTip": "C:\\Projetos\\Library\\Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml.cs",
+              "RelativeToolTip": "Biblioteca.Web\\Pages\\CadGenero\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T23:48:45Z",
+              "WhenOpened": "2024-10-28T12:43:22.933Z",
               "EditorCaption": ""
             }
           ]

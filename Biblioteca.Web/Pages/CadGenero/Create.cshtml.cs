@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Biblioteca.Data.Model;
+using Biblioteca.Data.Interfaces;
 
 namespace Biblioteca.Web.Pages.CadGenero
 {
     public class CreateModel : PageModel
     {
-        private readonly Biblioteca.Data.Model.DBLivrariaContext _context;
+        private readonly IGeneroRespositoryAsync Repository;
 
-        public CreateModel(Biblioteca.Data.Model.DBLivrariaContext context)
+        public CreateModel(IGeneroRespositoryAsync generoRepositoryAsync)
         {
-            _context = context;
+            Repository = generoRepositoryAsync;
         }
 
         public IActionResult OnGet()
@@ -34,8 +35,10 @@ namespace Biblioteca.Web.Pages.CadGenero
                 return Page();
             }
 
-            _context.Generos.Add(Genero);
-            await _context.SaveChangesAsync();
+            await Repository.IncluirAsync(Genero);
+
+            //_context.Generos.Add(Genero);
+            //await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
         }

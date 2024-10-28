@@ -7,16 +7,16 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Data.Model;
+using Biblioteca.Data.Interfaces;
 
 namespace Biblioteca.Web.Pages.CadGenero
 {
     public class EditModel : PageModel
     {
-        private readonly Biblioteca.Data.Model.DBLivrariaContext _context;
-
-        public EditModel(Biblioteca.Data.Model.DBLivrariaContext context)
+        private readonly IGeneroRespositoryAsync Repository;
+        public EditModel(IGeneroRespositoryAsync generoRepositoryAsync)
         {
-            _context = context;
+            Repository = generoRepositoryAsync;
         }
 
         [BindProperty]
@@ -29,7 +29,7 @@ namespace Biblioteca.Web.Pages.CadGenero
                 return NotFound();
             }
 
-            var genero =  await _context.Generos.FirstOrDefaultAsync(m => m.Id == id);
+            var genero = await Repository.SelecionaPelaChaveAsync(id.Value);
             if (genero == null)
             {
                 return NotFound();
@@ -47,11 +47,12 @@ namespace Biblioteca.Web.Pages.CadGenero
                 return Page();
             }
 
-            _context.Attach(Genero).State = EntityState.Modified;
+            //_context.Attach(Genero).State = EntityState.Modified;
 
             try
             {
-                await _context.SaveChangesAsync();
+                await Repository.AlterarAsync(Genero);
+                //await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -70,7 +71,8 @@ namespace Biblioteca.Web.Pages.CadGenero
 
         private bool GeneroExists(int id)
         {
-            return _context.Generos.Any(e => e.Id == id);
+            var obj = Repository.SelecionaPelaChaveAsync(id).Result;
+            return obj != null; //_context.Generos.Any(e => e.Id == id);
         }
     }
 }

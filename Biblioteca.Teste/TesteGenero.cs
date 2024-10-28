@@ -50,14 +50,14 @@ namespace Biblioteca.Teste
                 Lista.Add(oGenero);
             }
             _Repository.IncluirMultiplos(Lista);
-            Assert.Pass("Gêneros incluído com sucesso!");
+            Assert.Pass("Gêneros incluídos com sucesso!");
         }
 
         [Test]
         //Alterar Gênero, incluindo a data e a hora que o teste foi feito
         public void AlterarGenero()
         {
-            var obj = _Repository.SelecionarPelaChave(0);
+            var obj = _Repository.SelecionarPelaChave(1);
             string data = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss");
             if (obj != null)
             {
@@ -96,7 +96,7 @@ namespace Biblioteca.Teste
         }
 
         [Test]
-        //Selecionar um gênero pelo seu ID, mostrandoó junto ao nome
+        //Selecionar um gênero pelo seu ID, mostrando-o junto ao nome
         public void SelecionarChaveGenero()
         {
             var obj = _Repository.SelecionarPelaChave(1);
