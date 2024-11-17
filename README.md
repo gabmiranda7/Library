@@ -1,1 +1,1 @@
-Sistema de Biblioteca, que contém os menus de Autores, Editoras, Gêneros, Idiomas, Livros e Usuários, vinculado ao SQL Server, possibilitando a inclusão, alteração ou remocão de cada um deles.
+Sistema de Biblioteca, que contém os menus de Autores, Editoras, Gêneros, Idiomas, Livros e Usuários, vinculado ao SQL Server, possibilitando a inclusão, alteração ou remocão de cada um deles. O cadastro de Gêneros está vinculado ao ASP.NET, possibilitando acessar e gerenciar os dados da tabela SQL via navegador web.
